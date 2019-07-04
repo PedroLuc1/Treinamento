@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\teste\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj": {}
+    "C:\\Projetos\\Teste\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\teste\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj": {
+    "C:\\Projetos\\Teste\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\teste\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj",
+        "projectUniqueName": "C:\\Projetos\\Teste\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj",
         "projectName": "ContosUniversity",
-        "projectPath": "C:\\Projetos\\teste\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj",
-        "packagesPath": "C:\\Users\\cataloko\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\teste\\Treinamento\\ContosUniversity\\ContosUniversity\\obj\\",
+        "projectPath": "C:\\Projetos\\Teste\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj",
+        "packagesPath": "C:\\Users\\S9 Informatica\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Teste\\Treinamento\\ContosUniversity\\ContosUniversity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\cataloko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\S9 Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,7 +53,6 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
