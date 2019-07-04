@@ -30,3 +30,35 @@ C:\Users\S9 Informatica\source\repos\ContosUniversity\ContosUniversity\obj\Debug
 C:\Users\S9 Informatica\source\repos\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.pdb
 C:\Users\S9 Informatica\source\repos\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.csproj.CopyComplete
 C:\Users\S9 Informatica\source\repos\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.csprojAssemblyReference.cache
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\bin\Debug\netcoreapp2.1\ContosUniversity.deps.json
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\bin\Debug\netcoreapp2.1\ContosUniversity.runtimeconfig.json
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\bin\Debug\netcoreapp2.1\ContosUniversity.runtimeconfig.dev.json
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\bin\Debug\netcoreapp2.1\ContosUniversity.dll
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\bin\Debug\netcoreapp2.1\ContosUniversity.pdb
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\bin\Debug\netcoreapp2.1\ContosUniversity.Views.dll
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\bin\Debug\netcoreapp2.1\ContosUniversity.Views.pdb
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.csprojAssemblyReference.cache
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.csproj.CoreCompileInputs.cache
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.RazorAssemblyInfo.cache
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.RazorAssemblyInfo.cs
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.AssemblyInfoInputs.cache
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.AssemblyInfo.cs
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.TagHelpers.input.cache
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.TagHelpers.output.cache
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.RazorCoreGenerate.cache
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.RazorTargetAssemblyInfo.cache
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.RazorTargetAssemblyInfo.cs
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.Views.pdb
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.dll
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.pdb
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.csproj.CopyComplete
