@@ -18,19 +18,40 @@ namespace ContosUniversity.Controllers
         {
             _context = context;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id:int}")]
         public async Task<ActionResult<Usuario>> GetUsuario(int id)
         { 
-          return await _context.Usuarios.FindAsync(id);
-
-            
+          return await _context.Usuarios.FindAsync(id);            
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="nome"></param>
+        /// <returns></returns>
         [HttpGet("nome/{Nome}")]
         public async Task<ActionResult<Usuario>> GetUsuarioNome(string nome)
         {
-           return await _context.Usuarios.FirstOrDefaultAsync(usuario => usuario.Nome==nome);
-            
+            //
+            //
+            // ATENÇÃO
+            //
+            //
+
+           return await _context.Usuarios.FirstOrDefaultAsync(usuario => usuario.Nome==nome);            
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<ActionResult<Usuario>> PostUsuario(Usuario item)
         {
@@ -39,6 +60,13 @@ namespace ContosUniversity.Controllers
             return new ObjectResult("Usuario adicionado");
 
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="usuario"></param>
+        /// <returns></returns>
         [HttpPut("{id}")]
         public async Task<ActionResult<Usuario>>  PutUsuario(int id, Usuario usuario)
         {
@@ -47,6 +75,12 @@ namespace ContosUniversity.Controllers
 
             return new ObjectResult("Usuario Alterado");
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<ActionResult<Usuario>> DeleteUsuario(int id)
         {
