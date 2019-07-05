@@ -12,7 +12,8 @@ namespace ContosUniversity.Data
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=localhost;database=treinamento;user=root;password=");
+            //optionsBuilder.UseMySQL("server=localhost;database=treinamento;user=root;password=");
+            optionsBuilder.UseMySQL("server=localhost;database=treinamento;user=root;password=123456");
         }
         public DbSet<Usuario> Usuarios { get; set; }
     }

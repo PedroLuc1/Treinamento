@@ -1,4 +1,5 @@
-﻿using ContosUniversity.Data;
+﻿
+using ContosUniversity.Data;
 using ContosUniversity.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,7 @@ namespace ContosUniversity.Controllers
     public class UsuarioController : ControllerBase
     {
         private readonly UsuarioContext _context;
+
         public UsuarioController(UsuarioContext context)
         {
             _context = context;
@@ -25,7 +27,7 @@ namespace ContosUniversity.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet("{id:int}")]
-        public async Task<ActionResult<Usuario>> GetUsuario(int id)
+        public async Task<ActionResult<Models.Usuario>> GetUsuario(int id)
         { 
           return await _context.Usuarios.FindAsync(id);            
         }
@@ -45,7 +47,9 @@ namespace ContosUniversity.Controllers
             //
             //
 
-           return await _context.Usuarios.FirstOrDefaultAsync(usuario => usuario.Nome==nome);            
+            //return await _context.Usuarios.FirstOrDefaultAsync(usuario => usuario.Nome == nome);  
+
+            throw new NotImplementedException();
         }
 
         /// <summary>
@@ -56,10 +60,16 @@ namespace ContosUniversity.Controllers
         [HttpPost]
         public async Task<ActionResult<Usuario>> PostUsuario(Usuario item)
         {
-            _context.Usuarios.Add(item);
-            await _context.SaveChangesAsync();
+
+            var iusuario = new UsuarioBusinessModels(_context);
+
+            var novoUsuario = await iusuario.Criar(item);
+
             return new ObjectResult("Usuario adicionado");
 
+            //_context.Usuarios.Add(item);
+            //await _context.SaveChangesAsync();
+            //return new ObjectResult("Usuario adicionado");
         }
 
         /// <summary>

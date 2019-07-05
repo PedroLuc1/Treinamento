@@ -37,7 +37,6 @@ C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\bin\Debug\netcor
 C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\bin\Debug\netcoreapp2.1\ContosUniversity.pdb
 C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\bin\Debug\netcoreapp2.1\ContosUniversity.Views.dll
 C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\bin\Debug\netcoreapp2.1\ContosUniversity.Views.pdb
-C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.csprojAssemblyReference.cache
 C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.csproj.CoreCompileInputs.cache
 C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.RazorAssemblyInfo.cache
 C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.RazorAssemblyInfo.cs
@@ -62,3 +61,4 @@ C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcor
 C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.dll
 C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.pdb
 C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.csproj.CopyComplete
+C:\Projetos\teste\Treinamento\ContosUniversity\ContosUniversity\obj\Debug\netcoreapp2.1\ContosUniversity.csprojAssemblyReference.cache
