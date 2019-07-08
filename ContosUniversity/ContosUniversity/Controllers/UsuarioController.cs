@@ -79,7 +79,7 @@ namespace ContosUniversity.Controllers
         /// <param name="usuario"></param>
         /// <returns></returns>
         [HttpPut("{id}")]
-        public async Task<ActionResult<Usuario>>  PutUsuario(Usuario usuario, int id)
+        public async Task<ActionResult<Usuario>>  PutUsuario(Usuario usuario, long id)
         {
             var iusuario = new UsuarioBusinessModels(_context);
             var editaUsuario = await iusuario.Editar(usuario, id);
@@ -95,11 +95,13 @@ namespace ContosUniversity.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Usuario>> DeleteUsuario(int id)
+        public async Task<ActionResult<Usuario>> DeleteUsuario(Usuario usuario)
         {
-           var usuario= await _context.Usuarios.FindAsync(id);
-            _context.Usuarios.Remove(usuario);
-            _context.SaveChanges();
+            var iusuario = new UsuarioBusinessModels(_context);
+            var excluiUsuario = await iusuario.Excluir(usuario);
+          // var usuario= await _context.Usuarios.FindAsync(id);
+           // _context.Usuarios.Remove(usuario);
+           // _context.SaveChanges();
 
             return new ObjectResult("Usuario deletado.");
 

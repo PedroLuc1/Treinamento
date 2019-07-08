@@ -56,13 +56,13 @@ namespace ContosUniversity.Models
 
             return editaUsuario;
         }
-        public async Task<Usuario> Excluir( long id)
+        public async Task<Usuario> Excluir(Usuario usuario)
         {
 
             var excluiUsuario = new Usuario();
-           
+            excluiUsuario.ID = usuario.ID;
 
-            await base.Excluir(id);
+           await base.Excluir(excluiUsuario);
             await base.Persistir();
 
             return excluiUsuario;
