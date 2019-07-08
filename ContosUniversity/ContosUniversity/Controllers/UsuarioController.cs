@@ -79,10 +79,12 @@ namespace ContosUniversity.Controllers
         /// <param name="usuario"></param>
         /// <returns></returns>
         [HttpPut("{id}")]
-        public async Task<ActionResult<Usuario>>  PutUsuario(int id, Usuario usuario)
+        public async Task<ActionResult<Usuario>>  PutUsuario(Usuario usuario, int id)
         {
-            _context.Entry(usuario).State = EntityState.Modified;
-           await  _context.SaveChangesAsync();
+            var iusuario = new UsuarioBusinessModels(_context);
+            var editaUsuario = await iusuario.Editar(usuario, id);
+          /*  _context.Entry(usuario).State = EntityState.Modified;
+           await  _context.SaveChangesAsync();*/
 
             return new ObjectResult("Usuario Alterado");
         }

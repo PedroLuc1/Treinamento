@@ -41,7 +41,32 @@ namespace ContosUniversity.Models
             await base.Persistir();
 
             return novoUsuario;
-        }        
+        }
+        public async Task<Usuario> Editar(Usuario usuario,long id)
+        {
+
+            var editaUsuario = new Usuario();
+            editaUsuario.ID = usuario.ID;
+            editaUsuario.Email = usuario.Email;
+            editaUsuario.Nome = usuario.Nome;
+            editaUsuario.Senha = usuario.Senha;
+
+            await base.Editar(editaUsuario,id);
+            await base.Persistir();
+
+            return editaUsuario;
+        }
+        public async Task<Usuario> Excluir( long id)
+        {
+
+            var excluiUsuario = new Usuario();
+           
+
+            await base.Excluir(id);
+            await base.Persistir();
+
+            return excluiUsuario;
+        }
     }
 
     public class UsuarioMetadata
