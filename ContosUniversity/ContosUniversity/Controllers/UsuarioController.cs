@@ -88,7 +88,7 @@ namespace ContosUniversity.Controllers
         /// <param name="usuario"></param>
         /// <returns></returns>
         [HttpPut("{id}")]
-        public async Task<ActionResult<Usuario>>  PutUsuario(Usuario usuario, long id)
+        public async Task<ActionResult<Usuario>>  PutUsuario(Usuario usuario, int id)
         {
             var iusuario = new UsuarioBusinessModels(_context);
             var editaUsuario = await iusuario.Editar(usuario, id);

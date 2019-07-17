@@ -50,7 +50,7 @@ namespace ContosUniversity.Models
 
             return novoUsuario;
         }
-        public async Task<Usuario> Editar(Usuario usuario, long id)
+        public async Task<Usuario> Editar(Usuario usuario, int id)
         {
 
             var editaUsuario = new Usuario();

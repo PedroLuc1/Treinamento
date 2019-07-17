@@ -85,7 +85,7 @@ namespace ContosUniversity.Models
             return Task.CompletedTask;
         }
 
-        public virtual Task Editar(TPrimaryEntity Objeto, long key)
+        public virtual Task Editar(TPrimaryEntity Objeto, int key)
         {
             this.Update<TPrimaryEntity>(Objeto, key);
             return Task.CompletedTask;
@@ -98,7 +98,7 @@ namespace ContosUniversity.Models
         //    return Task.CompletedTask;
         //}
 
-        private void Update<T>(T model, long key) where T : class
+        private void Update<T>(T model, int key) where T : class
         {
             if (model == null)
             {
