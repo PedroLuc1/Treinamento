@@ -37,9 +37,9 @@ namespace ContosUniversity.Controllers
         /// </summary>
         /// <param name="nome"></param>
         /// <returns></returns>
-        [HttpGet("nome/{Nome}")]
-        public async Task<ActionResult<Usuario>> GetUsuarioNome(string nome)
-        {
+       // [HttpGet("nome/{Nome}")]
+       // public async Task<ActionResult<Usuario>> GetUsuarioNome(string nome)
+      //  {
             //
             //
             // ATENÇÃO x1234
@@ -49,7 +49,16 @@ namespace ContosUniversity.Controllers
 
             //return await _context.Usuarios.FirstOrDefaultAsync(usuario => usuario.Nome == nome);  
 
-            throw new NotImplementedException();
+          //  throw new NotImplementedException();
+       // }
+        [HttpGet("pesquisa/{Nome}")]
+        public async Task<ActionResult<IEnumerable<Usuario>>> GetPesquisaNome(string nome)
+        {
+            var iusuario = new UsuarioBusinessModels(_context);
+            var pesquisa = await iusuario.ObterNome(nome);
+            return new ObjectResult(pesquisa);
+            
+
         }
 
         /// <summary>
@@ -65,7 +74,7 @@ namespace ContosUniversity.Controllers
 
             var novoUsuario = await iusuario.Criar(item);
 
-            return new ObjectResult("Usuario adicionado");
+            return novoUsuario;
 
             //_context.Usuarios.Add(item);
             //await _context.SaveChangesAsync();
@@ -95,10 +104,10 @@ namespace ContosUniversity.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Usuario>> DeleteUsuario(Usuario usuario)
+        public async Task<ActionResult<Usuario>> DeleteUsuario(int id)
         {
             var iusuario = new UsuarioBusinessModels(_context);
-            var excluiUsuario = await iusuario.Excluir(usuario);
+            var excluiUsuario = await iusuario.Excluir(id);
           // var usuario= await _context.Usuarios.FindAsync(id);
            // _context.Usuarios.Remove(usuario);
            // _context.SaveChanges();

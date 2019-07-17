@@ -8,8 +8,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ContosUniversity.Migrations
 {
     [DbContext(typeof(UsuarioContext))]
-    [Migration("20190703221816_VersaoInicial")]
-    partial class VersaoInicial
+    [Migration("20190711173159_VersaoAtual")]
+    partial class VersaoAtual
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,6 +21,8 @@ namespace ContosUniversity.Migrations
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd();
+
+                    b.Property<string>("CPF");
 
                     b.Property<string>("Email");
 

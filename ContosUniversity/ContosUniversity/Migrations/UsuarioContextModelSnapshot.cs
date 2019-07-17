@@ -20,6 +20,8 @@ namespace ContosUniversity.Migrations
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("CPF");
+
                     b.Property<string>("Email");
 
                     b.Property<string>("Nome");

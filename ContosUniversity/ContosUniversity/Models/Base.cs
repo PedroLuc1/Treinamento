@@ -23,10 +23,15 @@ namespace ContosUniversity.Models
             this.DependentDatabaseSet = bd.Set<TDependentEntity>();
         }
 
-        public virtual async Task<TPrimaryEntity> Obter(long id/*, bool asNoTraking = true*/)
+        public virtual async Task<TPrimaryEntity> Obter(long id)
         {            
             return await PrimaryDatabaseSet.FindAsync(id).ConfigureAwait(false);
-        }       
+        }
+
+        public virtual async Task<TPrimaryEntity> Obter(int id)
+        {
+            return await PrimaryDatabaseSet.FindAsync(id).ConfigureAwait(false);
+        }
 
         public virtual async Task<IEnumerable<TPrimaryEntity>> Obter(/*bool asNoTraking = true*/)
         {            

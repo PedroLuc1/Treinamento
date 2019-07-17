@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Estágio\\Treinamento\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj": {}
+    "C:\\Projetos\\Teste\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj": {}
   },
   "projects": {
-    "C:\\Estágio\\Treinamento\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj": {
+    "C:\\Projetos\\Teste\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Estágio\\Treinamento\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj",
+        "projectUniqueName": "C:\\Projetos\\Teste\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj",
         "projectName": "ContosUniversity",
-        "projectPath": "C:\\Estágio\\Treinamento\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj",
-        "packagesPath": "C:\\Users\\Estágio\\.nuget\\packages\\",
-        "outputPath": "C:\\Estágio\\Treinamento\\Treinamento\\ContosUniversity\\ContosUniversity\\obj\\",
+        "projectPath": "C:\\Projetos\\Teste\\Treinamento\\ContosUniversity\\ContosUniversity\\ContosUniversity.csproj",
+        "packagesPath": "C:\\Users\\S9 Informatica\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Teste\\Treinamento\\ContosUniversity\\ContosUniversity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Estágio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\S9 Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

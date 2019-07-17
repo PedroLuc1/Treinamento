@@ -2,7 +2,7 @@
 
 namespace ContosUniversity.Migrations
 {
-    public partial class VersaoInicial : Migration
+    public partial class VersaoAtual : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,7 +14,8 @@ namespace ContosUniversity.Migrations
                         .Annotation("MySQL:AutoIncrement", true),
                     Nome = table.Column<string>(nullable: true),
                     Email = table.Column<string>(nullable: true),
-                    Senha = table.Column<string>(nullable: true)
+                    Senha = table.Column<string>(nullable: true),
+                    CPF = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
